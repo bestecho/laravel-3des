@@ -1,0 +1,30 @@
+{
+    "name": "bestecho/laravel-3des",
+    "description": "Laravel Des3 encode",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bestecho",
+            "email": "bestecho@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "laraveldes3\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "laraveldes3\\Des3Provider"
+            ],
+            "aliases": {
+                "DES3": "laraveldes3\\Des3Facade"
+            }
+        }
+    }
+}
