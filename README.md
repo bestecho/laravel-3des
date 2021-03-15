@@ -5,7 +5,7 @@ Laravel 3DES加密解密，和java,ios互通，使用openssl，必须有openssl�
 ### 安装方法 ###
 
 ```php
-composer require youthage/laravel-3des
+composer require bestecho/laravel-3des
 ```
 
 ### 配置方法 ###
